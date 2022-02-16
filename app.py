@@ -30,6 +30,6 @@ def g2():
     p5=mode[4]
     
     return render_template('output.html', name=name,p1=p1,p2=p2,p3=p3,p4=p4,p5=p5)  
-  
-app.run(debug=True)  
+if __name__ == "__main__":
+    app.run(debug=True)  
     
